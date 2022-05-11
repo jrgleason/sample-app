@@ -1,0 +1,20 @@
+{
+  "name": "@jrg/sample-app-fe",
+  "version": "0.0.1",
+  "description": "Sample Application using VueJS",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jackie Gleason",
+  "license": "MIT",
+  "dependencies": {
+    "@auth0/auth0-vue": "latest",
+    "@vitejs/plugin-vue": "latest",
+    "vue": "latest",
+    "vuetify": "next"
+  },
+  "devDependencies": {
+    "vite": "^2.9.8"
+  }
+}
