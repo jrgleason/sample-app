@@ -1,0 +1,4 @@
+FROM nginx:latest
+WORKDIR /usr/src/app
+COPY ./dist .
+COPY nginx.conf /etc/nginx/conf.d/default.conf
